@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="column">
+        <a class="navbar-brand" routerLink="/home">
+          <img class="navlogo ml-5" src="assets/navlogo.jpg">
+        </a>
+        <div class="sidenav">          
+          <div class="container">
+
+                  <a class="btn btn-light mt-1 ml-2" routerLink="/home">Home</a>
+
+                  <a class="btn btn-light mt-1 ml-2" routerLink="/profile">My profile</a>
+
+                  <a class="btn btn-light mt-1 ml-2" routerLink="/posts">View posts</a>
+
+                  <a class="btn btn-dark mt-1 ml-2 text-white" (click)="logout()">Log Out</a>
+
+          </div>  
+        </div>
+  </div>
+  <div class="column">
+      <div class="profilediv">
+          <div class="card">
+            <h2>Hi {{firstName}}</h2>
+            <h2>Welcome to your profile</h2>
+          </div>
+        </div>
+  </div>
+</div>

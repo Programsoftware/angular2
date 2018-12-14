@@ -1,0 +1,27 @@
+.sidenav{
+    border-radius: 25px;
+    width:22vw;
+    height:100vh;       
+    background-color:darkgray; 
+    padding-top:10px;
+}
+
+.sidenav a {
+    font-size: 150%;
+    display: block;
+    color: black;
+    padding: 6px 8px 6px 16px;
+    overflow-x: hidden;
+    margin:auto;
+}
+body{
+    background-color:black;
+}
+.navlogo{
+    width:15vw;
+    height:5vw;
+}
+.profilediv{
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
